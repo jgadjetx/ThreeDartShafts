@@ -1,9 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.three_dart_shafts">
+    package="com.example.three_dart_shafts"
+    xmlns:tools="http://schemas.android.com/tools">
    <application
         android:label="three_dart_shafts"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:label">
         <activity
             android:name=".MainActivity"
             android:exported="true"
